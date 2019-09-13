@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6CAA7D92214095CFF92A01C /* Pods_Movie_App_for_HADI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4236B4AAC69E33E66C92CF5D /* Pods_Movie_App_for_HADI.framework */; };
+		CA51EFEB2327DFE200F74612 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA51EFEA2327DFE200F74612 /* AppDelegate.swift */; };
+		CA51EFED2327DFE200F74612 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA51EFEC2327DFE200F74612 /* ViewController.swift */; };
+		CA51EFF02327DFE200F74612 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA51EFEE2327DFE200F74612 /* Main.storyboard */; };
+		CA51EFF22327DFE300F74612 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA51EFF12327DFE300F74612 /* Assets.xcassets */; };
+		CA51EFF52327DFE300F74612 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA51EFF32327DFE300F74612 /* LaunchScreen.storyboard */; };
+		CA51EFFD2327E00D00F74612 /* getListofMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA51EFFC2327E00D00F74612 /* getListofMovies.swift */; };
+		CA51F0012327F31900F74612 /* ShowDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA51F0002327F31900F74612 /* ShowDetailsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2870BC1A01BB748A41F0D50C /* Pods-Movie App for HADI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movie App for HADI.release.xcconfig"; path = "Target Support Files/Pods-Movie App for HADI/Pods-Movie App for HADI.release.xcconfig"; sourceTree = "<group>"; };
+		4236B4AAC69E33E66C92CF5D /* Pods_Movie_App_for_HADI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Movie_App_for_HADI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF75A9F0D9FC4F3FAEDFB154 /* Pods-Movie App for HADI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movie App for HADI.debug.xcconfig"; path = "Target Support Files/Pods-Movie App for HADI/Pods-Movie App for HADI.debug.xcconfig"; sourceTree = "<group>"; };
+		CA51EFE72327DFE200F74612 /* Movie App for HADI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Movie App for HADI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA51EFEA2327DFE200F74612 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA51EFEC2327DFE200F74612 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA51EFEF2327DFE200F74612 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA51EFF12327DFE300F74612 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA51EFF42327DFE300F74612 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA51EFF62327DFE300F74612 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA51EFFC2327E00D00F74612 /* getListofMovies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = getListofMovies.swift; sourceTree = "<group>"; };
+		CA51F0002327F31900F74612 /* ShowDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDetailsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA51EFE42327DFE200F74612 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6CAA7D92214095CFF92A01C /* Pods_Movie_App_for_HADI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56559244E83ED4FA1F0BA250 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4236B4AAC69E33E66C92CF5D /* Pods_Movie_App_for_HADI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA51EFDE2327DFE200F74612 = {
+			isa = PBXGroup;
+			children = (
+				CA51EFE92327DFE200F74612 /* Movie App for HADI */,
+				CA51EFE82327DFE200F74612 /* Products */,
+				D94D67DBA03A3599B4A631F4 /* Pods */,
+				56559244E83ED4FA1F0BA250 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CA51EFE82327DFE200F74612 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA51EFE72327DFE200F74612 /* Movie App for HADI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA51EFE92327DFE200F74612 /* Movie App for HADI */ = {
+			isa = PBXGroup;
+			children = (
+				CA51EFEA2327DFE200F74612 /* AppDelegate.swift */,
+				CA51EFFF2327E9E000F74612 /* Views */,
+				CA51EFFE2327E9D600F74612 /* Json */,
+				CA51EFEE2327DFE200F74612 /* Main.storyboard */,
+				CA51EFF12327DFE300F74612 /* Assets.xcassets */,
+				CA51EFF32327DFE300F74612 /* LaunchScreen.storyboard */,
+				CA51EFF62327DFE300F74612 /* Info.plist */,
+			);
+			path = "Movie App for HADI";
+			sourceTree = "<group>";
+		};
+		CA51EFFE2327E9D600F74612 /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				CA51EFFC2327E00D00F74612 /* getListofMovies.swift */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		CA51EFFF2327E9E000F74612 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CA51EFEC2327DFE200F74612 /* ViewController.swift */,
+				CA51F0002327F31900F74612 /* ShowDetailsViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D94D67DBA03A3599B4A631F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF75A9F0D9FC4F3FAEDFB154 /* Pods-Movie App for HADI.debug.xcconfig */,
+				2870BC1A01BB748A41F0D50C /* Pods-Movie App for HADI.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA51EFE62327DFE200F74612 /* Movie App for HADI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA51EFF92327DFE300F74612 /* Build configuration list for PBXNativeTarget "Movie App for HADI" */;
+			buildPhases = (
+				B66621A2BA7A51F7A33A9BE4 /* [CP] Check Pods Manifest.lock */,
+				CA51EFE32327DFE200F74612 /* Sources */,
+				CA51EFE42327DFE200F74612 /* Frameworks */,
+				CA51EFE52327DFE200F74612 /* Resources */,
+				AECD2299084139279C4BF2D6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Movie App for HADI";
+			productName = "Movie App for HADI";
+			productReference = CA51EFE72327DFE200F74612 /* Movie App for HADI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA51EFDF2327DFE200F74612 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Oğuz Karatoruk";
+				TargetAttributes = {
+					CA51EFE62327DFE200F74612 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = CA51EFE22327DFE200F74612 /* Build configuration list for PBXProject "Movie App for HADI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA51EFDE2327DFE200F74612;
+			productRefGroup = CA51EFE82327DFE200F74612 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA51EFE62327DFE200F74612 /* Movie App for HADI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA51EFE52327DFE200F74612 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA51EFF52327DFE300F74612 /* LaunchScreen.storyboard in Resources */,
+				CA51EFF22327DFE300F74612 /* Assets.xcassets in Resources */,
+				CA51EFF02327DFE200F74612 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AECD2299084139279C4BF2D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Movie App for HADI/Pods-Movie App for HADI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Movie App for HADI/Pods-Movie App for HADI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Movie App for HADI/Pods-Movie App for HADI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B66621A2BA7A51F7A33A9BE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Movie App for HADI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA51EFE32327DFE200F74612 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA51F0012327F31900F74612 /* ShowDetailsViewController.swift in Sources */,
+				CA51EFED2327DFE200F74612 /* ViewController.swift in Sources */,
+				CA51EFEB2327DFE200F74612 /* AppDelegate.swift in Sources */,
+				CA51EFFD2327E00D00F74612 /* getListofMovies.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA51EFEE2327DFE200F74612 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA51EFEF2327DFE200F74612 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA51EFF32327DFE300F74612 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA51EFF42327DFE300F74612 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA51EFF72327DFE300F74612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA51EFF82327DFE300F74612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA51EFFA2327DFE300F74612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF75A9F0D9FC4F3FAEDFB154 /* Pods-Movie App for HADI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7WG386WRN;
+				INFOPLIST_FILE = "Movie App for HADI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oguzkr.Movie-App-for-HADI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA51EFFB2327DFE300F74612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2870BC1A01BB748A41F0D50C /* Pods-Movie App for HADI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7WG386WRN;
+				INFOPLIST_FILE = "Movie App for HADI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oguzkr.Movie-App-for-HADI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA51EFE22327DFE200F74612 /* Build configuration list for PBXProject "Movie App for HADI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA51EFF72327DFE300F74612 /* Debug */,
+				CA51EFF82327DFE300F74612 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA51EFF92327DFE300F74612 /* Build configuration list for PBXNativeTarget "Movie App for HADI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA51EFFA2327DFE300F74612 /* Debug */,
+				CA51EFFB2327DFE300F74612 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA51EFDF2327DFE200F74612 /* Project object */;
+}
