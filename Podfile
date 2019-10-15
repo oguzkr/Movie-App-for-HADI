@@ -7,6 +7,7 @@ target 'Movie App for HADI' do
 pod 'SVProgressHUD'
 pod 'SDWebImage', '~> 4.0'
 pod 'SwiftGifOrigin', '~> 1.7.0'
+pod 'Hero'
   # Pods for Movie App for HADI
 
 end

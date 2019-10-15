@@ -30,15 +30,20 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         let textFieldInsideSearchBar = searchBar.value(forKey: "searchField") as? UITextField
         textFieldInsideSearchBar?.textColor = UIColor.lightGray
+        
         searchBar.delegate = self
         self.tableView.isHidden = true
         tableView.keyboardDismissMode = .onDrag
+        
         SVProgressHUD.show()
+        
         getMoviesList(page: "1") {
             print("Filmler Yukleniyor..")
         }
+        
         self.hideKeyboardWhenTappedAround()
     }
     
@@ -131,7 +136,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             if searching {
                 destionationVC.movieDetails = filteredMovies[(tableView.indexPathForSelectedRow?.row)!]
             }else{
-            destionationVC.movieDetails = getMovies[(tableView.indexPathForSelectedRow?.row)!]
+                destionationVC.movieDetails = getMovies[(tableView.indexPathForSelectedRow?.row)!]
             }
         }
     }

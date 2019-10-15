@@ -19,7 +19,7 @@ class ShowDetailsViewController: UIViewController {
     @IBOutlet weak var OverviewText: UITextView!
     
     var movieDetails:GETMOVIES?
-    
+    //
     override func viewDidLoad() {
         super.viewDidLoad()
         let url = URL(string: "https://image.tmdb.org/t/p/w500\(String(movieDetails!.poster_path))")
